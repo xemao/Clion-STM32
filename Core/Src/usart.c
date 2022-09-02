@@ -21,7 +21,10 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
-
+// 串口接收数组
+unsigned char UART_RxBuffer[UART_RX_BUFFER_SIZE];
+// 串口接收数组指针
+unsigned char UART_RxPtr;
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;
@@ -115,5 +118,10 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 }
 
 /* USER CODE BEGIN 1 */
-
+// 清除缓存
+void uart_FlushRxBuffer(void)
+{
+  UART_RxPtr = 0;
+  UART_RxBuffer[UART_RxPtr] = 0;
+}
 /* USER CODE END 1 */

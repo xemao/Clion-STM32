@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -88,6 +87,11 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   RetargetInit(&huart1);  // printf重定向到usart1
+  printf("欢迎使用野火步进电机 加减速正反转 例程\r\n");
+  // 步进电机初始化
+  stepper_Init();
+  // 打印帮助命令
+  ShowHelp();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,6 +103,8 @@ int main(void)
     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
     HAL_Delay(500);
     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+    // 处理串口数据
+    DealSerialData();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

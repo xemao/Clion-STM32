@@ -817,6 +817,87 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+User/Src/bsp_stepper_T_speed.obj: User/Src/bsp_stepper_T_speed.c.obj
+
+.PHONY : User/Src/bsp_stepper_T_speed.obj
+
+# target to build an object file
+User/Src/bsp_stepper_T_speed.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj
+.PHONY : User/Src/bsp_stepper_T_speed.c.obj
+
+User/Src/bsp_stepper_T_speed.i: User/Src/bsp_stepper_T_speed.c.i
+
+.PHONY : User/Src/bsp_stepper_T_speed.i
+
+# target to preprocess a source file
+User/Src/bsp_stepper_T_speed.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.i
+.PHONY : User/Src/bsp_stepper_T_speed.c.i
+
+User/Src/bsp_stepper_T_speed.s: User/Src/bsp_stepper_T_speed.c.s
+
+.PHONY : User/Src/bsp_stepper_T_speed.s
+
+# target to generate assembly for a file
+User/Src/bsp_stepper_T_speed.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.s
+.PHONY : User/Src/bsp_stepper_T_speed.c.s
+
+User/Src/bsp_stepper_init.obj: User/Src/bsp_stepper_init.c.obj
+
+.PHONY : User/Src/bsp_stepper_init.obj
+
+# target to build an object file
+User/Src/bsp_stepper_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj
+.PHONY : User/Src/bsp_stepper_init.c.obj
+
+User/Src/bsp_stepper_init.i: User/Src/bsp_stepper_init.c.i
+
+.PHONY : User/Src/bsp_stepper_init.i
+
+# target to preprocess a source file
+User/Src/bsp_stepper_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.i
+.PHONY : User/Src/bsp_stepper_init.c.i
+
+User/Src/bsp_stepper_init.s: User/Src/bsp_stepper_init.c.s
+
+.PHONY : User/Src/bsp_stepper_init.s
+
+# target to generate assembly for a file
+User/Src/bsp_stepper_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.s
+.PHONY : User/Src/bsp_stepper_init.c.s
+
+User/Src/bsp_stepper_usart_ctl.obj: User/Src/bsp_stepper_usart_ctl.c.obj
+
+.PHONY : User/Src/bsp_stepper_usart_ctl.obj
+
+# target to build an object file
+User/Src/bsp_stepper_usart_ctl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj
+.PHONY : User/Src/bsp_stepper_usart_ctl.c.obj
+
+User/Src/bsp_stepper_usart_ctl.i: User/Src/bsp_stepper_usart_ctl.c.i
+
+.PHONY : User/Src/bsp_stepper_usart_ctl.i
+
+# target to preprocess a source file
+User/Src/bsp_stepper_usart_ctl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.i
+.PHONY : User/Src/bsp_stepper_usart_ctl.c.i
+
+User/Src/bsp_stepper_usart_ctl.s: User/Src/bsp_stepper_usart_ctl.c.s
+
+.PHONY : User/Src/bsp_stepper_usart_ctl.s
+
+# target to generate assembly for a file
+User/Src/bsp_stepper_usart_ctl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystm32.elf.dir\build.make CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.s
+.PHONY : User/Src/bsp_stepper_usart_ctl.c.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -910,6 +991,15 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... User/Src/bsp_stepper_T_speed.obj
+	@echo ... User/Src/bsp_stepper_T_speed.i
+	@echo ... User/Src/bsp_stepper_T_speed.s
+	@echo ... User/Src/bsp_stepper_init.obj
+	@echo ... User/Src/bsp_stepper_init.i
+	@echo ... User/Src/bsp_stepper_init.s
+	@echo ... User/Src/bsp_stepper_usart_ctl.obj
+	@echo ... User/Src/bsp_stepper_usart_ctl.i
+	@echo ... User/Src/bsp_stepper_usart_ctl.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 

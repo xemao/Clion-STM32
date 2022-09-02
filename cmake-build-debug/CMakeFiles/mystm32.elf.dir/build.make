@@ -401,9 +401,48 @@ CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\mystm32.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj: CMakeFiles/mystm32.elf.dir/flags.make
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj: ../User/Src/bsp_stepper_T_speed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_T_speed.c.obj   -c D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_T_speed.c
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.i"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_T_speed.c > CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_T_speed.c.i
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.s"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_T_speed.c -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_T_speed.c.s
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj: CMakeFiles/mystm32.elf.dir/flags.make
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj: ../User/Src/bsp_stepper_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_init.c.obj   -c D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_init.c
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.i"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_init.c > CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_init.c.i
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.s"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_init.c -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_init.c.s
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj: CMakeFiles/mystm32.elf.dir/flags.make
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj: ../User/Src/bsp_stepper_usart_ctl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_usart_ctl.c.obj   -c D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_usart_ctl.c
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.i"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_usart_ctl.c > CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_usart_ctl.c.i
+
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.s"
+	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Exercise\CLion\STM32F407\mystm32\User\Src\bsp_stepper_usart_ctl.c -o CMakeFiles\mystm32.elf.dir\User\Src\bsp_stepper_usart_ctl.c.s
+
 CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/mystm32.elf.dir/flags.make
 CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj"
 	"E:\Program Files\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\mystm32.elf.dir\startup\startup_stm32f407xx.s.obj -c D:\Exercise\CLion\STM32F407\mystm32\startup\startup_stm32f407xx.s
 
 # Object files for target mystm32.elf
@@ -433,6 +472,9 @@ mystm32_elf_OBJECTS = \
 "CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj" \
+"CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj" \
+"CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj" \
 "CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj"
 
 # External object files for target mystm32.elf
@@ -463,10 +505,13 @@ mystm32.elf: CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4
 mystm32.elf: CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 mystm32.elf: CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 mystm32.elf: CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+mystm32.elf: CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj
+mystm32.elf: CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj
+mystm32.elf: CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj
 mystm32.elf: CMakeFiles/mystm32.elf.dir/startup/startup_stm32f407xx.s.obj
 mystm32.elf: CMakeFiles/mystm32.elf.dir/build.make
 mystm32.elf: CMakeFiles/mystm32.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable mystm32.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Exercise\CLion\STM32F407\mystm32\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable mystm32.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mystm32.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Exercise/CLion/STM32F407/mystm32/cmake-build-debug/mystm32.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Exercise/CLion/STM32F407/mystm32/cmake-build-debug/mystm32.bin"

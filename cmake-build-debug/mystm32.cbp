@@ -36,6 +36,7 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/User/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Core/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -64,6 +65,7 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/User/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Core/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
@@ -326,6 +328,24 @@
 			<Option target="mystm32.elf"/>
 		</Unit>
 		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/STM32F407VETx_FLASH.ld">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Inc/bsp_stepper_T_speed.h">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Inc/bsp_stepper_init.h">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Inc/bsp_stepper_usart_ctl.h">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_T_speed.c">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_init.c">
+			<Option target="mystm32.elf"/>
+		</Unit>
+		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_usart_ctl.c">
 			<Option target="mystm32.elf"/>
 		</Unit>
 		<Unit filename="D:/Exercise/CLion/STM32F407/mystm32/startup/startup_stm32f407xx.s">

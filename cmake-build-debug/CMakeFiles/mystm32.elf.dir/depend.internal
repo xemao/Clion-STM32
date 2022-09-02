@@ -8,6 +8,7 @@ CMakeFiles/mystm32.elf.dir/Core/Src/gpio.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/retarget.h
  ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -38,6 +39,9 @@ CMakeFiles/mystm32.elf.dir/Core/Src/gpio.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/gpio.c
 CMakeFiles/mystm32.elf.dir/Core/Src/main.c.obj
  ../Core/Inc/gpio.h
@@ -75,6 +79,9 @@ CMakeFiles/mystm32.elf.dir/Core/Src/main.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/main.c
 CMakeFiles/mystm32.elf.dir/Core/Src/retarget.c.obj
  ../Core/Inc/retarget.h
@@ -114,6 +121,7 @@ CMakeFiles/mystm32.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  ../Core/Inc/main.h
  ../Core/Inc/retarget.h
  ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -144,6 +152,9 @@ CMakeFiles/mystm32.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/mystm32.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
  ../Core/Inc/stm32f4xx_hal_conf.h
@@ -183,6 +194,7 @@ CMakeFiles/mystm32.elf.dir/Core/Src/stm32f4xx_it.c.obj
  ../Core/Inc/retarget.h
  ../Core/Inc/stm32f4xx_hal_conf.h
  ../Core/Inc/stm32f4xx_it.h
+ ../Core/Inc/usart.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
@@ -213,6 +225,9 @@ CMakeFiles/mystm32.elf.dir/Core/Src/stm32f4xx_it.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/stm32f4xx_it.c
 CMakeFiles/mystm32.elf.dir/Core/Src/syscalls.c.obj
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/syscalls.c
@@ -284,6 +299,9 @@ CMakeFiles/mystm32.elf.dir/Core/Src/usart.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
  D:/Exercise/CLion/STM32F407/mystm32/Core/Src/usart.c
 CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  ../Core/Inc/stm32f4xx_hal_conf.h
@@ -813,3 +831,120 @@ CMakeFiles/mystm32.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
  D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_T_speed.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/retarget.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Core/Inc/usart.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
+ D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_T_speed.c
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_init.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/retarget.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Core/Inc/usart.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
+ D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_init.c
+CMakeFiles/mystm32.elf.dir/User/Src/bsp_stepper_usart_ctl.c.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/retarget.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Core/Inc/usart.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../User/Inc/bsp_stepper_T_speed.h
+ ../User/Inc/bsp_stepper_init.h
+ ../User/Inc/bsp_stepper_usart_ctl.h
+ D:/Exercise/CLion/STM32F407/mystm32/User/Src/bsp_stepper_usart_ctl.c
