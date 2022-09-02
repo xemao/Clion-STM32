@@ -86,7 +86,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  RetargetInit(&huart1);  // printf重定向到usart1
+	RetargetInit(&huart1);  // printf重定向到usart1
   printf("欢迎使用野火步进电机 加减速正反转 例程\r\n");
   // 步进电机初始化
   stepper_Init();
@@ -98,7 +98,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    printf("\r\nHallo!");
     HAL_Delay(500);
     HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
     HAL_Delay(500);

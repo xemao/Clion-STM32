@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../Core/Inc/gpio.h
-main.h
-../Core/Inc/main.h
-
 ../Core/Inc/main.h
 stm32f4xx_hal.h
 ../Core/Inc/stm32f4xx_hal.h
@@ -350,9 +346,7 @@ math.h
 stdlib.h
 -
 
-D:/Exercise/CLion/STM32F407/mystm32/Core/Src/main.c
-main.h
-D:/Exercise/CLion/STM32F407/mystm32/Core/Src/main.h
-gpio.h
-D:/Exercise/CLion/STM32F407/mystm32/Core/Src/gpio.h
+D:/Exercise/CLion/STM32F407/mystm32/Core/Src/usart.c
+usart.h
+D:/Exercise/CLion/STM32F407/mystm32/Core/Src/usart.h
 
