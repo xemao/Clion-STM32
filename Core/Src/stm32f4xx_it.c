@@ -26,12 +26,12 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
-
+extern unsigned char UART_RxPtr;
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+void Usart_SendByte(char ch);
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -221,7 +221,43 @@ void TIM1_UP_TIM10_IRQHandler(void)
 void USART1_IRQHandler(void)
 {
   /* USER CODE BEGIN USART1_IRQn 0 */
+  unsigned char data;
 
+  if(__HAL_UART_GET_FLAG(&huart1, UART_FLAG_RXNE ) != RESET)
+  {
+    data = (uint16_t)READ_REG(huart1.Instance->DR);
+    if(status.running == FALSE && status.out_ena == TRUE)
+    {
+      // 如果为退格键
+      if(data == '\b') {
+        // 如果指针不在数组的开始位置
+        if(UART_RxPtr) {
+          Usart_SendByte('\b');
+          Usart_SendByte(' ');
+          Usart_SendByte('\b');
+          UART_RxPtr--;
+          UART_RxBuffer[UART_RxPtr]=0x00;
+        }
+      } else {  //如果不是退格键
+        // 将数据填入数组UART_RxBuffer
+        // 并且将后面的一个元素清零如果数组满了则写入最后一个元素为止
+        if(UART_RxPtr < (UART_RX_BUFFER_SIZE - 1)) {
+          UART_RxBuffer[UART_RxPtr] = data;
+          UART_RxBuffer[UART_RxPtr + 1]=0x00;
+          UART_RxPtr++;
+        } else {
+          UART_RxBuffer[UART_RxPtr - 1] = data;
+          Usart_SendByte('\b');
+        }
+        //如果为回车键，则开始处理串口数据
+        if(data == 13) {
+          status.cmd = TRUE;
+        } else {
+          Usart_SendByte(data);
+        }
+      }
+    }
+  }
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */
@@ -230,5 +266,9 @@ void USART1_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+void Usart_SendByte(char ch)
+{
+  WRITE_REG(huart1.Instance->DR,ch);
+}
 
 /* USER CODE END 1 */

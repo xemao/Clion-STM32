@@ -31,7 +31,11 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usart.h"
 #include "retarget.h"
+#include "bsp_stepper_init.h"
+#include "bsp_stepper_T_speed.h"
+#include "bsp_stepper_usart_ctl.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

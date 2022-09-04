@@ -7,11 +7,11 @@ ASM_FLAGS =   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fda
 
 ASM_DEFINES = -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\Exercise\CLion\STM32F407\mystm32\Core\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Include 
+ASM_INCLUDES = -ID:\Exercise\CLion\STM32F407\mystm32\User\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Core\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Include 
 
 C_FLAGS =   -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\Exercise\CLion\STM32F407\mystm32\Core\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Include 
+C_INCLUDES = -ID:\Exercise\CLion\STM32F407\mystm32\User\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Core\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\Exercise\CLion\STM32F407\mystm32\Drivers\CMSIS\Include 
 

@@ -35,7 +35,9 @@ extern "C" {
 extern UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN Private defines */
-
+#define UART_RX_BUFFER_SIZE 256
+extern unsigned char UART_RxBuffer[UART_RX_BUFFER_SIZE];
+extern void uart_FlushRxBuffer(void);
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);
