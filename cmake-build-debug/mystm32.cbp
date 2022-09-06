@@ -42,12 +42,12 @@
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/CMSIS/Include"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="E:/Program Files/MinGW64/bin/mingw32-make.exe -f &quot;D:/Exercise/CLion/STM32F407/mystm32/cmake-build-debug/Makefile&quot;  VERBOSE=1 mystm32.elf"/>
@@ -71,12 +71,12 @@
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 					<Add directory="D:/Exercise/CLion/STM32F407/mystm32/Drivers/CMSIS/Include"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="e:\program files\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="e:\program files\gcc-arm-none-eabi-9-2020\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="E:/Program Files/MinGW64/bin/mingw32-make.exe -f &quot;D:/Exercise/CLion/STM32F407/mystm32/cmake-build-debug/Makefile&quot;  VERBOSE=1 mystm32.elf/fast"/>

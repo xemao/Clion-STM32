@@ -1,24 +1,16 @@
 "E:\Program Files\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" D:\Exercise\CLion\STM32F407\mystm32
--- Minimal optimization, debug info included
--- Configuring done
-You have changed variables that require your cache to be deleted.
-Configure will be re-run and you may have to reset some variables.
-The following variables have changed:
-CMAKE_C_COMPILER= E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc.exe
-CMAKE_CXX_COMPILER= E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-g++.exe
-
--- The C compiler identification is GNU 10.3.1
--- The CXX compiler identification is GNU 10.3.1
+-- The C compiler identification is GNU 9.3.1
+-- The CXX compiler identification is GNU 9.3.1
 -- The ASM compiler identification is GNU
--- Found assembler: E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
--- Check for working C compiler: E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
--- Check for working C compiler: E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe - works
+-- Found assembler: E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc.exe
+-- Check for working C compiler: E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc.exe - works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Check for working CXX compiler: E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe
--- Check for working CXX compiler: E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe - works
+-- Check for working CXX compiler: E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-g++.exe
+-- Check for working CXX compiler: E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-g++.exe - works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features

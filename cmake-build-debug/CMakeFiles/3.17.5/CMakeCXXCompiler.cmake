@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe")
+set(CMAKE_CXX_COMPILER "E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "10.3.1")
+set(CMAKE_CXX_COMPILER_VERSION "9.3.1")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -20,10 +20,10 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
+set(CMAKE_CXX_COMPILER_AR "E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "E:/Program Files/gcc-arm-none-eabi-9-2020/bin/arm-none-eabi-ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;E:/Program Files/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "E:/Program Files/gcc-arm-none-eabi-9-2020/arm-none-eabi/include/c++/9.3.1;E:/Program Files/gcc-arm-none-eabi-9-2020/arm-none-eabi/include/c++/9.3.1/arm-none-eabi;E:/Program Files/gcc-arm-none-eabi-9-2020/arm-none-eabi/include/c++/9.3.1/backward;E:/Program Files/gcc-arm-none-eabi-9-2020/lib/gcc/arm-none-eabi/9.3.1/include;E:/Program Files/gcc-arm-none-eabi-9-2020/lib/gcc/arm-none-eabi/9.3.1/include-fixed;E:/Program Files/gcc-arm-none-eabi-9-2020/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
